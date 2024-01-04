@@ -1,7 +1,6 @@
 
 import React from 'react'
-
-import Clickevent from "./Clickevent"
+import FormEvent from './FormEvent';
 
 
 
@@ -10,8 +9,8 @@ import Clickevent from "./Clickevent"
 const App = () => {
   return (
     <div className= "">
-    <h1>Counter App is
-      <Clickevent />
+    <h1> 
+      <FormEvent />
 </h1>
 
     </div>
